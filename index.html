@@ -36,6 +36,14 @@
         <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=109364839435729";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -57,6 +65,15 @@
             <p>P.P.S.  I hope a song recommendation coming from post is doubly effective. Check out "Fools Who Dream" from the movie La La Land.</p>
             <p>P.P.P.S. I am doing this surprise thing for the first time so to put me at ease, just drop me an email or ping when you recieve this 😜</p>
             <p>P.P.P.P.S. The order of events in the story above changes upon hitting refresh. See if reading different version of the account feels any different 😎</p>
+
+
+            <div class="fb-like" data-href="https://dennyabrain.github.io/a-collection-of-consequential-and-inconsequential-dates/" data-layout="box_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+
+            <a class="twitter-share-button"
+               href="https://twitter.com/intent/tweet"
+               data-size="large">
+                Tweet
+            </a>
         </div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -77,5 +94,24 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-89814310-1','auto');ga('send','pageview');
         </script>
+
+        <!--Tweet button Script-->
+        <script>window.twttr = (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+
+            t._e = [];
+            t.ready = function(f) {
+                t._e.push(f);
+            };
+
+            return t;
+        }(document, "script", "twitter-wjs"));</script>
     </body>
+
 </html>
