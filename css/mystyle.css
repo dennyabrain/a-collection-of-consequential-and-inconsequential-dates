@@ -1,0 +1,53 @@
+body{
+    padding:10em;
+    background-color:#E3D26F;
+}
+
+#post{
+    background-color: #2E294E;
+    color:#E3D26F;
+    padding : 2em;
+    /*font-family: 'Slabo 27px', serif;*/
+    font-family: 'Space Mono', monospace;
+}
+
+#letter{
+    background-color: #2E294E;
+    padding : 2em;
+    /*font-family: 'Slabo 27px', serif;*/
+    font-family: 'Space Mono', monospace;
+    margin-top:2em;
+    color:#E3D26F;
+}
+
+#title{
+    font-family: 'VT323', monospace;
+    text-align: center;
+    margin-bottom : 2em;
+    color:#E3D26F;
+}
+
+p{
+    font-size: 2em;
+    margin:1.2em 0 1.2em 0em;
+}
+
+h2{
+    font-weight: bold;
+    background-color:#F26DF9;
+    color:#2E294E;
+    display:inline;
+    padding:0 0.4em 0 0.4em;
+    margin-left:-2em;
+}
+
+h1{
+    font-size:3em;
+}
+
+img.emoji{
+    margin: 0px !important;
+    display: inline !important;
+    width: 1.3em;
+    height:1.3em;
+}
