@@ -1,5 +1,5 @@
 body{
-    padding:10em;
+    padding:1em;
     background-color:#E3D26F;
 }
 
@@ -40,6 +40,7 @@ p{
 }
 
 h2{
+    font-size: 3em;
     font-weight: bold;
     background-color:#F26DF9;
     color:#2E294E;
@@ -61,5 +62,28 @@ img.emoji{
 
 #social{
     background-color:red;
-    /*text-align: center;*/
+    text-align: center;
+}
+
+#test{
+    background-color: red;
+}
+
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.2em; /* 1.2x default size */
+        padding-left:3em;
+        padding-right:3em;
+    }
+}
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.8em; /* 0.8x default size */
+    }
 }
