@@ -19,6 +19,13 @@ body{
     margin-top:2em;
     color:#E3D26F;
 }
+#footer{
+    background-color: #F26DF9;
+    /*font-family: 'Slabo 27px', serif;*/
+    font-family: 'Space Mono', monospace;
+    margin-top:2em;
+    color:#2E294E;
+}
 
 #title{
     font-family: 'VT323', monospace;
@@ -50,4 +57,9 @@ img.emoji{
     display: inline !important;
     width: 1.3em;
     height:1.3em;
+}
+
+#social{
+    background-color:red;
+    /*text-align: center;*/
 }
